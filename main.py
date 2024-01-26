@@ -30,7 +30,7 @@ form {
 def index():
     if request.method == 'POST':
         if request.form['password'] == PASSWORD:
-            return "Welcome!"
+            return "Correct password"
         else:
             return "Incorrect password"
 
